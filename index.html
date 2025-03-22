@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courtney Blair - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header> 
+        <div class="container">
+            <nav>
+                <div class="logo">Courtney Blair</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <!-- Pojects Dropdown-->
+                    <li class="dropdown"><a href="#Projects" class="dropbtn">Projects</a>
+                        <ul class="dropdown-content">
+                            <li><a href="checkoutpage.html">Checkout Page</a></li>
+                            <li><a href="changereturnpage.html">Change Return</a></li>
+                            <li><a href="to-dolist.html"> To-do List</a></li>
+                        </ul>
+                    </li>  
+                    <!-- Hobbies Dropdown-->
+                    <li class="dropdown"><a href="hobbies.html"> Hobbies <span class="arrow">▼</span></a>
+                        <ul class="dropdown-content">
+                                    <li><a href="korean.html">Korean</a></li>
+                                    <li><a href="vietnamese.html">Vietnamese</a></li>
+                                    <li><a href="thai.html">Thai</a></li>
+                                    <li><a href="chinese.html">Chinese</a></li>
+                        </ul> 
+                    </li>
+                      
+                    
+                    <li><a href="#contact">Contact</a></li>
+                        
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h1>About Me</h1>
+        <p>
+            Hi! I'm Courtney Blair, a front-end web developer with a passion for building intuitive, responsive, and visually appealing web applications.
+            I specialize in HTML, CSS, JavaScript, and I'm currently pursuing a Web Development Certificate at the University of Denver.
+        </p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <!--<div class="skill">Responsive Design</div>-->
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Node.js (Beginner)</div>
+          <!--<div class="skill">Express.js</div>--> 
+        <!-- <div class="skill">Adobe Photoshop</div>-->    
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3>Checkout Page</h3>
+                <p>Built a responsive checkout page with validation using HTML, CSS, and JavaScript.</p>
+                <a href="checkoutpage.html" target="_blank" class="btn">View Code</a>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3>Change Return</h3>
+                <p>Change Return Program</p>
+                <a href="changereturnpage.html" target="_blank" class="btn">View Code</a>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <h3>Node.js To-Do App</h3>
+                <p>A simple to-do application using Node.js and Express for back-end functionality.</p>
+                <a href="to-dolist.html" target="_blank" class="btn">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect! Feel free to reach out via email or LinkedIn.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Or email me directly at: <a href="mailto:courtney@example.com">courtneycbl@outlook.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Courtney Blair. All Rights Reserved.</p>
+    </footer>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>

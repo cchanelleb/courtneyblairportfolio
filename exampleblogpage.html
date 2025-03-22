@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .container { width: 80%; margin: auto; padding: 20px; }
+        header { background: #333; color: white; text-align: center; padding: 10px 0; }
+        section { margin: 20px 0; padding: 15px; background: #f4f4f4; }
+        article { background: white; padding: 15px; margin-bottom: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+        footer { background: #333; color: white; text-align: center; padding: 10px 0; margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Tech Blog</h1>
+    </header>
+
+    <div class="container">
+        <!-- Blog Section -->
+        <section>
+            <h2>Latest Articles</h2>
+            
+            <!-- First Blog Post -->
+            <article>
+                <h3>Introduction to HTML & CSS</h3>
+                <p>Learn the basics of web development with HTML & CSS...</p>
+                <a href="#">Read More</a>
+            </article>
+
+            <!-- Second Blog Post -->
+            <article>
+                <h3>Getting Started with JavaScript</h3>
+                <p>JavaScript is the programming language of the web...</p>
+                <a href="#">Read More</a>
+            </article>
+
+        </section>
+    </div>
+<!--What Are Semantic and Non-Semantic Elements?
+
+Imagine you are organizing a notebook for school. You have different sections for each subject:
+
+📖 Math
+📖 Science
+📖 English
+
+Now, think about how you label those sections:
+
+Semantic Elements → These are like clear labels 📌
+If you write "Math Notes" on a page, anyone who sees it knows it's about Math.
+In coding, if you use <header>, <section>, or <article>, the browser and search engines know what’s inside those sections.
+Non-Semantic Elements → These are like unlabeled folders 📁
+If you just use a blank folder, people don’t know what’s inside until they open it.
+In coding, <div> and <span> are just empty boxes—you can put anything inside, but they don’t tell what the content is about. -->
+   <!--Scenario 2: Non-Semantic Elements (Blank Boxes)
+
+Now, what if we don’t use clear labels?
+What’s Wrong Here?
+All the content is inside <div>, but nothing tells us what each part is for.
+The browser doesn’t know if it's a title, a section, or an article.
+Search engines (like Google) won’t understand what’s important.
+➡ It’s like giving someone a notebook without subject labels—they won’t know what’s inside until they read everything!
+-->
+   
+    <div>
+        <h1>All About Lions</h1>
+    </div>
+    
+    <div>
+        <h2>Where Do Lions Live?</h2>
+        <p>Lions live in Africa and some parts of India.</p>
+    </div>
+    
+    <div>
+        <h2>Fun Facts About Lions</h2>
+        <p>Lions can sleep up to 20 hours a day!</p>
+    </div>
+    
+    <div>
+        <p>Made by [Your Name]</p>
+    </div>
+    
+     <footer>
+        <p>&copy; 2025 My Tech Blog. All rights reserved.</p>
+    </footer>
+
+<!--Example in Real Life 📚
+Scenario 1: Semantic Elements (Labeled Sections)
+
+Imagine you are making a school project webpage about your favorite animal 🦁. -->
+
+<!--What’s Happening Here?
+<header> (Like a title page 📌) → This tells us what the page is about.
+<section> (Like a chapter 📌) → Groups related content together.
+<article> (Like a full story 📌) → Stands alone, like a book page.
+<footer> (Like a credits page 📌) → Contains the author or extra info.
+➡ Anyone reading this code knows what’s in each section—just by looking at it!-->
+    <header>
+        <h1>All About Lions</h1>
+    </header>
+    
+    <section>
+        <h2>Where Do Lions Live?</h2>
+        <p>Lions live in Africa and some parts of India.</p>
+    </section>
+    
+    <article>
+        <h2>Fun Facts About Lions</h2>
+        <p>Lions can sleep up to 20 hours a day!</p>
+    </article>
+    
+    <footer>
+        <p>Made by [Your Name]</p>
+    </footer>
+    <!-- Imagine This:
+👦 A webpage with semantic elements is like a well-organized school notebook—anyone can read it easily.
+
+👦 A webpage without them is like a messy notebook with no labels—people will struggle to find what they need.
+
+Now, does that make sense? 😊 Would you like another example? 🚀-->
+
+</body>
+</html>

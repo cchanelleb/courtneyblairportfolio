@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Return</title>
+    <link rel="stylesheet" href="css/changereturnstyle.css"
+</head>
+<body>
+    <!-- Header Section -->
+  <header>
+    <nav>
+        <div class="logo">Courtney Blair</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="Projects" class="dropbtn">Projects</a>
+                <ul class="dropdown-content">
+                    <li><a href="checkoutpage.html">Checkout Page</a></li>
+                    <li><a href="changereturnpage.html"> Change Return</a></li>
+                    <li><a href="to-dolist.html"> To-do List</a></li>
+                   
+                </ul>
+            </li>
+
+            <!-- Hobbies Dropdown --> 
+            <li class="dropdown"><a href="hobbies.html"> Hobbies <span class="arrow">▼</span></a>
+                <ul class="dropdown-content">
+                            <li><a href="korean.html">Korean</a></li>
+                            <li><a href="vietnamese.html">Vietnamese</a></li>
+                            <li><a href="thai.html">Thai</a></li>
+                            <li><a href="chinese.html">Chinese</a></li>
+                </ul> 
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <p> The user enters a cost and then the amount of money given. The program will figure out the change and the number of quarters, dimes, nickels, pennies needed for the change.</p>
+    <div class="container">
+        <h1> Change Return Calculator</h1>
+       
+        <form id="changeForm">
+            <label for="cost">Total Cost ($):</label>
+            <input type="number" id="cost" step="0.01" required>
+            <br>
+
+            <label for="moneyGiven"> Money Given</label>
+    
+            <input type="number" id="moneyGiven" step="0.01" required>
+            <br>
+
+            <button type="button" id="calulateBtn"> Calculate Change</button>
+
+        </form>
+    </div>
+    
+    <div id="result" class="result">
+<!---Results will display here-->
+    </div>
+    <script src="JavaScript/changereturnscript.js"></script>
+</body>
+</html>

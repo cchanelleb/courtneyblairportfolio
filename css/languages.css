@@ -1,0 +1,154 @@
+/* General Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box; 
+  font-family: Arial, sans-serif;
+}
+
+/* Header Navigation */
+header {
+  background-color: #8e918f;
+  padding: 10px 20px;
+  color: #fff;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+header .nav-links a {
+  text-decoration: none;
+  color: rgb(248, 245, 245);
+  transition: color 0.3s;
+}
+header .nav-links a:hover {
+  color: #fc6c85;
+}
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar Styling */
+/* Navigation Bar */
+/* General Navigation Styles */
+.nav-links {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+gap: 15px;
+background: #333; /* Dark background */
+padding: 10px;
+}
+
+.nav-links li {
+position: relative;
+}
+
+.nav-links a {
+text-decoration: none;
+padding: 10px 15px;
+display: flex;
+align-items: center;
+gap: 5px; /* Space between text and arrow */
+color: white;
+transition: background 0.3s ease;
+}
+
+.nav-links a:hover {
+background: #0e0d0d;
+border-radius: 5px;
+}
+
+/* Dropdown Menu */
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: rgb(235, 147, 147);
+list-style: none;
+padding: 0;
+margin: 0;
+border: 1px solid #ddd;
+width: 180px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+z-index: 10;
+}
+
+.dropdown-content li {
+width: 100%;
+}
+
+.dropdown-content a {
+color: #333;
+padding: 10px;
+display: block;
+text-align: left;
+transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+background: #f0f0f0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+/* Arrow icon */
+.arrow {
+font-size: 12px;
+transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when hovering over dropdown */
+.dropdown:hover .arrow {
+transform: rotate(180deg);
+}
+
+
+
+    
+  body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: auto;
+      display: block;
+      padding: 0;
+     
+  }
+ 
+  h1 {
+      text-align: center;
+      margin-top: 20px;
+  }
+  p{
+      text-align: center;
+      margin-top: 20px;
+  }
+  img {
+      display: block;
+      margin: auto;
+      margin-top: 20px;
+  }
+  footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+  

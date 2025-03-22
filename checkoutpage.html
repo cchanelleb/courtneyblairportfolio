@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="css/projectsstyle.css">
+</head>
+<header> 
+    <nav>
+        <div class="logo">Courtney Blair</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="#projects" class="dropbtn">Projects</a>
+                <ul class="dropdown-content">
+                    <li><a href="checkoutpage.html">Checkout Page</a></li>
+                    <li><a href="changereturnpage.html">Change Return</a></li>
+                    <li><a href="to-dolist.html">To-do List</a></li>
+                </ul>
+            </li>
+
+            <!-- Hobbies Dropdown --> 
+            <li class="dropdown"><a href="hobbies.html"> Hobbies <span class="arrow">▼</span></a>
+                <ul class="dropdown-content">
+                            <li><a href="korean.html">Korean</a></li>
+                            <li><a href="vietnamese.html">Vietnamese</a></li>
+                            <li><a href="thai.html">Thai</a></li>
+                            <li><a href="chinese.html">Chinese</a></li>
+                </ul> 
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+</header>
+<body>
+    <div class="container">
+        <h1>Checkout</h1>
+        <form id="checkout-form">
+            <!-- Contact Information -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <small class="error-message"></small>
+            </div>
+
+            <!-- Shipping Address -->
+            <h2>Shipping Address</h2>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="Enter your state" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="zip">ZIP Code</label>
+                <input type="text" id="zip" name="zip" placeholder="Enter your ZIP code" required>
+                <small class="error-message"></small>
+            </div>
+
+            <!-- Payment Information -->
+            <h2>Payment Details</h2>
+            <div class="form-group">
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" placeholder="Enter your card number" maxlength="16" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="expiry">Expiry Date</label>
+                <input type="month" id="expiry" name="expiry" required>
+                <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="123" maxlength="3" required>
+                <small class="error-message"></small>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+</html>
