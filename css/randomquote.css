@@ -112,6 +112,41 @@ header .nav-links a:hover {
   transition: transform 0.3s ease;
 }
 
+* About Section */
+.about, .contact, .skills,.projects {
+    padding: 40px 20px;
+    text-align: center;
+}
+.about h2, .contact h2 {
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background-color: #fc8eac;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #fc6c85;
+}
+
+
 /* Rotate arrow when hovering over dropdown */
 .dropdown:hover .arrow {
   transform: rotate(180deg);
