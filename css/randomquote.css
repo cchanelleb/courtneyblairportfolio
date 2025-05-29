@@ -111,14 +111,14 @@ header .nav-links a:hover {
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(120deg, #ffe6f0, #fce3ff);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
 }
-
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px; 
+}
 .quote-container {
   text-align: center;
   background: #fff0f6;
