@@ -112,6 +112,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(120deg, #ffe6f0, #fce3ff);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -124,6 +125,8 @@ body {
   padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h1 {
