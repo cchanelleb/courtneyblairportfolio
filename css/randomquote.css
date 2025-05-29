@@ -111,7 +111,7 @@ header .nav-links a:hover {
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(120deg, #ffe6f0, #fce3ff);
-  margin: 0;
+  margin: 10px;
 }
 .main-wrapper {
   display: flex;
