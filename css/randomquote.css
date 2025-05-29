@@ -107,6 +107,7 @@ header .nav-links a:hover {
   transform: rotate(180deg);
 }
 
+/* Main Content */
 body {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(120deg, #ffe6f0, #fce3ff);
@@ -117,7 +118,7 @@ body {
   margin: 0;
 }
 
-.generator{
+.container {
   text-align: center;
   background: #fff0f6;
   padding: 2rem;
