@@ -56,7 +56,7 @@ header .nav-links a:hover {
   }
   
   .nav-links a:hover {
-    background-color: #555;
+    background-color:#0e0d0d;
   }
   
   /* Dropdown Menu Styling */
@@ -74,22 +74,28 @@ header .nav-links a:hover {
   width: 180px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
+  
+.dropdown-content li {
+  width: 100%;
 }
- 
-  .dropdown-content li a {
-    color: #333;
-    padding: 10px;
-    text-decoration: none;
-  }
-  
-  .dropdown-content li a:hover {
-    background-color: #ddd;
-  }
-  
-  /* Show Dropdown on Hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
+.dropdown-content a {
+  color: #333;
+  padding: 10px;
+  display: block;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.dropdown-content a:hover {
+  background: #f0f0f0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* Arrow icon */
 .arrow {
   font-size: 12px;
@@ -100,4 +106,5 @@ header .nav-links a:hover {
 .dropdown:hover .arrow {
   transform: rotate(180deg);
 }
+
 
